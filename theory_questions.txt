@@ -1,0 +1,11 @@
+SOURCE:
+https://www.edureka.co/blog/self-in-python/
+
+
+Q: Explain 'self' word in python?
+
+* To represent the instance of the class
+* Using this you can access the attributes and methods of the class 
+* Used to refer to a variable field within the class 
+* Improves readability of the code 
+

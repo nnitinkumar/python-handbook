@@ -13,3 +13,12 @@ class Solution:
                 sum = nums[i] + nums[j]
                 if sum == target:
                     return [i,j]
+                    
+                    
+ -----------------------------------------------------------------
+ 
+ ##Q : Convert a list into a string
+ 
+weekdays = ['sun','mon','tue','wed','thu','fri','sat']
+listAsString = ' '.join(weekdays)
+print(listAsString)

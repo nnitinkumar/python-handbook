@@ -1,4 +1,6 @@
-##Q : Two sum
+https://leetcode.com/tag/string/
+
+##1Q : Two sum
 
 #nums is the given list 
 #nums = [2,7,11,15]
@@ -22,3 +24,21 @@ class Solution:
 weekdays = ['sun','mon','tue','wed','thu','fri','sat']
 listAsString = ' '.join(weekdays)
 print(listAsString)
+
+ -----------------------------------------------------------------
+
+##1119 : Remove vowels from a string
+
+class Solution:
+    def removeVowels(self, S: str) -> str:
+    
+        vowels = set(['a', 'e', 'i', 'o', 'u'])
+        new_word = ""
+        
+        for letter in S:
+            if(letter not in vowels):
+                new_word += letter
+             
+        return new_word
+        
+        

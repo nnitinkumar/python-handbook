@@ -9,3 +9,8 @@ Q: Explain 'self' word in python?
 * Used to refer to a variable field within the class 
 * Improves readability of the code 
 
+Q: What are built in data structures in python?
+List
+Dictionary
+Tuple
+Sets

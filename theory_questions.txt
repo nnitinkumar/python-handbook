@@ -22,5 +22,14 @@ A lambda function can take any number of arguments, but can only have one
 expression
 
 
+Q: Python dictionaries
+
+thisdict = {
+	"brand": "Ford",
+	"model": "Mustang",
+	"year": 1990
+}
+
+
 
 

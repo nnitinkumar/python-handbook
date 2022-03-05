@@ -33,3 +33,17 @@ thisdict = {
 
 
 
+Q: What are lists?
+* mylist = ["apple", "banana"]
+
+* Lists are used to store multiple items in a single variable
+
+* Lists are created using square brackets
+
+* Lists items are ordered, changeable and allow duplicates
+
+* List items are indexed, first item has index [0]
+
+* functions
+len(mylist) - to get number of elements
+type(mylist) - to get data type of lists

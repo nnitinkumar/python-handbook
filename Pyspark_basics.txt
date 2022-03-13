@@ -1,0 +1,6 @@
+INTRODUCTION:
+Apache spark is a fast real-time processing framework. It does in-memory computations to analyze data
+in real time.
+It came into picture as Apache Hadoop Mapreduce was performing batch processing only and lacked
+real time processing feature.
+

@@ -58,3 +58,28 @@ class Solution:
 
 ##58 : Length of last word
 
+-----------------------------------------------------------------
+#https://docs.python.org/release/2.3.5/whatsnew/section-slices.html
+
+##9: Palindrome number
+
+#Exp and example
+#given an integer x, return true if x is palindrome integer
+#121 is a palindrome
+#123 is not 
+
+def isPalindrome(input_string):
+    return s == s[::-1]
+    
+
+#Driver code
+input_string = "nitin"
+
+checked = isPalindrome(input_string)
+
+if checked:
+    print("Yes")
+else:
+    print("No")
+    
+    

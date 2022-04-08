@@ -128,9 +128,9 @@ if X is before C then C - 10 i.e. 100-10 = 90
 if C is before D then D - 1 i.e. 500-100 = 400
 if X is before M then M - 1 i.e. 1000-100 = 900
 
-
+##Giving error
 class Solution:
-    def romanToInt(self, s: str) -> int:
+    
         lookup = {
         "I":1,
         "V":5,
@@ -156,3 +156,35 @@ class Solution:
 
 
 
+##Working solution
+
+class Solution:
+    def romanToInt(self, s: str) -> int:
+    
+        dic = {
+        "I":1,
+        "V":5,
+        "X":10,
+        "L":50,
+        "C":100,
+        "D":500,
+        "M":1000,  
+        }
+        
+        total = 0
+        curr = 0
+        prev = 0
+        
+        for i in range(len(s)):
+            curr = dic[s[i]]
+            if curr > prev:
+                total = total + curr - 2 * prev
+                
+            else:
+                total += curr
+            
+            prev = curr
+        return total
+        
+        
+                

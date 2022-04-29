@@ -47,3 +47,12 @@ Q: What are lists?
 * functions
 len(mylist) - to get number of elements
 type(mylist) - to get data type of lists
+
+
+
+
+Q: How does garbage collection happens in python?
+Python deletes unwanted (class instances or built in types) to free up the memory. The process by which python frees and reclaims blocks of memory
+that are no longer in use is called garbage collection.
+
+ 

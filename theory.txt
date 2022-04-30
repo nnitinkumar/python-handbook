@@ -55,4 +55,10 @@ Q: How does garbage collection happens in python?
 Python deletes unwanted (class instances or built in types) to free up the memory. The process by which python frees and reclaims blocks of memory
 that are no longer in use is called garbage collection.
 
+
+Q: What are different modules used in Python?
+Modules refer to a file containing python statements and definitions. We use modules to break down large programs into small
+manageble and organized files. It enhances reusability.
+
+
  

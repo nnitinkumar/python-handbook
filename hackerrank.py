@@ -1,12 +1,6 @@
-#SOURCE:
-https://www.w3schools.com/python/ref_string_split.asp
-https://www.geeksforgeeks.org/python-map-function/
-https://www.geeksforgeeks.org/sorted-function-python/
-https://www.geeksforgeeks.org/python-set-method/
-nitin
+
 
 #Q:Find the runner up score
-
 
 '''
 Given the participants's score sheet for your 
@@ -20,6 +14,7 @@ if __name__ == '__main__':
     arr = map(int, input().split())
     print (sorted(set(arr))[-2])
     
+#EXPLANATION:     
 #split() method splits a string into a list  
 
 #map() function returns a map object (which is an iterator) of the results after applying
@@ -31,3 +26,50 @@ if __name__ == '__main__':
 #set() method is used to convery any of the iterable to sequence of
 #iterable elements with distinct elements
 #Sets are unordered. Use sorted(set(sampleList)) to get it sorted 
+
+#SOURCE:
+https://www.w3schools.com/python/ref_string_split.asp
+https://www.geeksforgeeks.org/python-map-function/
+https://www.geeksforgeeks.org/sorted-function-python/
+https://www.geeksforgeeks.org/python-set-method/
+
+
+------------------------------------------------------------------------------
+#Q: Nested Lists
+
+'''
+Given the names and grades for each student in a class of N
+students, store them in a nested list and print the name(s)
+of any student(s) having the second lowest grade
+'''
+
+#####Q Find the difference between 2 and 3 versions
+
+d = {} #Step1-  empty dictionary
+
+for _ in range(int(raw_input())): #Step2 - Range for number of students
+    Name = raw_input() #Step3 -  Accepting name of the student
+    Grade = float(raw_input())) #Step4 - Accepting the grade of the student
+    d[Name] = Grade #Step5 - Assigning name as key and grade as value for the dic
+  
+v = d.values() #Step6 - Obtaining the values of dic (all grade of students)
+
+second = sorted(list(set(v)))[1] #Step7 - Removing duplicate grade by using set data type, changing to list, sorting in ascending order and taking the second lowest grade
+
+for key, value in d.items(): #Step9 - Going through the name and grade of each student by using items() method of dictionary
+
+        if value == second: #Step10 - Checking whether the grade is equal to the second lowest grade
+        
+            second_lowest.append(key) #Step11 -- if yes, append it to the second_lowest list
+            
+second_lowest.sort() #Step 12 - Sorting the name of students  in ascending order
+
+for name in second_lowest: #Step13 - Going through the name each students who got the second lowest grade
+
+   print name #Step 14 - Printing each name of studnets in separate line
+
+        
+        
+ ------------------------------------------------------------------------------
+ 
+ 

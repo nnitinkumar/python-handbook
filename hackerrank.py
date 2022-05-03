@@ -71,5 +71,26 @@ for name in second_lowest: #Step13 - Going through the name each students who go
         
         
  ------------------------------------------------------------------------------
+ '''
+ #Q :  Consider a list. You can perform the following commands:
  
+ 1. insert i e : insert integer e at position i
+ 2. print : print the list
+ 3. remove e  : delete the first occurence of integer e
+ 4. append e : insert integer e at the end of the list
+ 5. sort : sort the list
+ 6. pop : pop the last element from the list
+ 7. reverse : reverse the list
  
+ initialize your list and read in the value of n followed by n
+ lines of commands where each command will be of the 7 types listed above,
+ iterate through each command in order and perform the corresponding
+ operation on your list
+ '''
+ 
+ '''
+intial thoughts:
+does not look like a very tough problem
+but how to start
+
+ '''

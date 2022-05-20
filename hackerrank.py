@@ -140,3 +140,29 @@ does not look like a very tough problem
 but how to start
 
  '''
+ 
+ 
+ ------------------------------------------------------------------------------
+#Swap Case
+'''
+You are given a string and you have to convert all lowercase to uppercase
+and vice versa
+'''
+
+
+#Without using inbuilt swapcase function
+
+def swap_case(s):  #Passing string as s
+    result = ""
+    for letter in s:
+        if letter == letter.upper():
+            result += letter.lower()
+        else:
+            result += letter.upper()
+    return result
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+    

@@ -166,3 +166,24 @@ if __name__ == '__main__':
     result = swap_case(s)
     print(result)
     
+ ------------------------------------------------------------------------------
+ 
+ #Finding the percentage
+ 
+ '''
+ Given is a dictionary contaiing key value pairs of name and marks for a list of students
+ Print the average of marks array for the student name provided
+ Show 2 places after the decimal
+ '''
+ 
+if __name__ == '__main__':
+  n == int(input())
+  student_marks = {}
+  for _ in range(n):
+    name, *line = input().split()
+    scores = list(map(float, line))
+    student_marks[name] = scores
+   query_name = input()
+   marks = student_marks[query_name]
+   print(format(sum(marks)/3, '.2f'))
+   

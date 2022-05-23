@@ -187,3 +187,8 @@ if __name__ == '__main__':
    marks = student_marks[query_name]
    print(format(sum(marks)/3, '.2f'))
    
+   
+------------------------------------------------------------------------------
+'''
+String split and join  
+''' 

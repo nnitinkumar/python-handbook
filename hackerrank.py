@@ -201,3 +201,12 @@ You are given a string. Split the string on a "" delimeter and join using a - hy
 '''
 What's your name
 '''
+'''
+You are given the firstname and lastname of a person on two
+different lines. Your task is to read them and print the 
+following:
+
+Hello fistname lastname! You just delved into python.
+
+
+'''

@@ -224,3 +224,59 @@ if __name__ == '__main__':
     first_name = input()
     last_name = input()
     print_full_name(first_name, last_name)  
+    
+    
+ ------------------------------------------------------------------------------
+ 
+##Lists
+
+'''
+Consider a list 
+list = []
+
+Perform the following commands:
+insert i e
+print
+remove e
+append e
+sort
+pop
+reverse
+
+Initialize your list and read in the value of n
+followed by n lines of commands
+where each command will be of the 7 types
+Iterate through each command in order and perform the operation
+
+''' 
+'''
+Example
+
+N = 4
+append 1
+apped 2
+insert 3 1
+print
+'''
+
+
+if __name__ == '__main__':
+    N = int(input())
+    lis = list()
+    for _ in range(N):
+        s = input().strip().split(" ")
+        if s[0] == "insert":
+            lis.insert(int(s[1]),int(s[2]))
+        if s[0] == "print":
+            print(lis)
+        if s[0] == "remove":
+            lis.remove(int(s[1]))
+        if s[0] == "append":
+            lis.append(int(s[1]))
+        if s[0] == "sort":
+            lis.sort()
+        if s[0] == "pop":
+            lis.pop()
+        if s[0] == "reverse":
+            lis.reverse()
+            

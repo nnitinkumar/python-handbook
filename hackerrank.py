@@ -279,4 +279,14 @@ if __name__ == '__main__':
             lis.pop()
         if s[0] == "reverse":
             lis.reverse()
-            
+           
+           
+ ------------------------------------------------------------------------------
+
+##Tuples
+
+'''
+Given an integer n, n space separated integers as input
+Create a tuple t, of those n integers
+Then compute and print the result of hash(t)
+'''

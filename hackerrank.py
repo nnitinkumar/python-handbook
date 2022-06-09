@@ -298,4 +298,24 @@ if __name__ == '__main__':
 
     t = tuple(integer_list)
     print(hash(t))
+    
+    
+##Exceptions
 
+'''
+You are given 2 values a and b
+Perform integer division and print a/b
+
+First line contains T, the number of test cases
+Next T lines eac contain the space separated values of a and b
+
+Print the value of a/b
+In the case of ZeroDivisionError or ValueError, print the error code
+'''
+
+for i in range(int(input())):
+    try:
+        a,b = map(int, input().split())
+        print(a//b)
+    except Exception as e:
+        print("Error Code:", e)

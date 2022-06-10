@@ -319,3 +319,6 @@ for i in range(int(input())):
         print(a//b)
     except Exception as e:
         print("Error Code:", e)
+        
+        
+##Find a string

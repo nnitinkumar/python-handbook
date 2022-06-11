@@ -299,6 +299,7 @@ if __name__ == '__main__':
     t = tuple(integer_list)
     print(hash(t))
     
+ ------------------------------------------------------------------------------
     
 ##Exceptions
 
@@ -320,5 +321,31 @@ for i in range(int(input())):
     except Exception as e:
         print("Error Code:", e)
         
+ ------------------------------------------------------------------------------
         
 ##Find a string
+
+'''
+The user enters a string and a substring. Print the number of times that the substring occurs in the 
+given string.
+String traversal will take place from left to right only
+
+First line of input contains the original string. The next line contains the substring
+
+Output the integer number indicating the total number of occurrences of the substring
+'''
+
+def count_substring(string, sub_string):
+    count = 0 
+    i = string.find(sub_string)
+    while i != -1:
+        count += 1
+        i = string.find(sub_string. i+1)
+    return count     
+       
+if __name__ == '__main__':
+    string = raw_input().strip()
+    sub_string = raw_input().strip()
+    
+    count = count_substring(string, sub_string)
+    print count 

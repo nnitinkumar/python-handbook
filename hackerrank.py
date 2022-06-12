@@ -372,7 +372,7 @@ print a
 '''
 
 def split_and_join(line):
-    print('-'.join(input().split()))
+    return "-".join(line.split())
     
 if __name__ = '__main__':
     line = input()

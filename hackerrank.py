@@ -349,3 +349,33 @@ if __name__ == '__main__':
     
     count = count_substring(string, sub_string)
     print count 
+    
+ ------------------------------------------------------------------------------
+
+
+## String split and join
+
+'''
+You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen
+
+'''
+
+
+'''
+Example:
+
+a = "this is a string"
+a = a.split(" ") ##a is now converted into a list of strings
+print a 
+
+['this', 'is', 'a', 'string']
+'''
+
+def split_and_join(line):
+    print('-'.join(input().split()))
+    
+if __name__ = '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
+    

@@ -384,3 +384,10 @@ if __name__ = '__main__':
  
  ## Mutations
  
+ '''
+ Lists = mutable
+ Tuple = immutable 
+ 
+ Read a given string, change the character at a given
+ index and then print the modified string
+ '''

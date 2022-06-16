@@ -393,7 +393,10 @@ if __name__ = '__main__':
  '''
  
  def mutate_string(string, position, character):
-    return
+    s = list(string)
+    s[position] = character
+    string = "".join(s)
+    return string 
  
  if __name__== '__main__':
     s = input()

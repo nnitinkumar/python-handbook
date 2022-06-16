@@ -404,6 +404,21 @@ if __name__ = '__main__':
     s_new = mutate_string(s, int(i), c)
     print(s_new)
     
+ ------------------------------------------------------------------------------
+ 
+ ## String Validators
+ 
+ '''
+  Python has inbuilt string validation methods for basic data. It can check if a string
+ is composed of alphabetical characters, alphanumeric characters, digits etc.
+ 
+ Task:
+ You are given a string S.
+ Your task is to find out if the string S contains: alphanumeric characters, alphabetical characters, digits,
+ lowercase and uppercase characters
+ 
+ '''
+
     
  
  

@@ -419,6 +419,10 @@ if __name__ = '__main__':
  
  '''
 
+if __name__ == "__main__":
+    s = input()
+    for check in ['isalnum', 'isalpha', 'isdigit', 'islower', 'isupper']:
+        print(any({getattr(char, check)() for char in s}))
     
  
  

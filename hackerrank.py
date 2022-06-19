@@ -425,7 +425,15 @@ if __name__ == "__main__":
         print(any({getattr(char, check)() for char in s}))
     
  
+ ------------------------------------------------------------------------------
+
+ ## Text alignment
  
+ '''
+ You are given a partial code that is used to generate the hacker rank
+ logo of variable thickness. Your task is to replace the blank (_____)
+ with rjust, ljust, center
+ '''
  
  
  

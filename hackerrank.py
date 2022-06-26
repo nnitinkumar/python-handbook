@@ -461,3 +461,13 @@ if __name__ == "__main__":
  
  '''
  
+ 
+ 
+ ## Capitalize
+ 
+ '''
+ You are given a full name, your task is to capitalize the first letter 
+ of the first name and second name
+ 
+ '''
+ 

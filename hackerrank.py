@@ -500,3 +500,31 @@ if __name__ == '__main__':
 
 
 ##String formatting 
+
+'''
+Given an integer n, print the following values for each integer i from 1 to n:
+1. Decimal
+2. Octal
+3. Hexadecimal (capitalized)
+4. Binary
+
+print_formatted function has following parameters:
+int number - the maximum value to print
+
+The four values must be printed on a single line in the order
+specified above for each i from 1 to number. Each value should be
+spaced padded to match the width of the binary value of number 
+and the values should be separated by a single space.
+
+Sample input:
+17
+
+Sample output:
+1 1 1 1
+2 2 2 10
+..
+..
+..
+17 21 11 1001
+
+'''

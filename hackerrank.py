@@ -528,3 +528,25 @@ Sample output:
 17 21 11 1001
 
 '''
+
+'''
+Psuedo Code:
+
+We just need to do the conversion.
+And apply loop.
+
+'''
+
+def print_formatted(number):
+    #your code
+    w = len(bin(number)[2:1])
+    for i in range(1, number+1):
+        print(str(i).rjust(w,""), end = " ")
+        print(str(oct(i))[2:].rjust(w," "), end = " ")
+        print(str(hex(i))[2:].upper().rjust(w," "), end = " ")
+        print(str(bin(i))[2:].rjust(w, " "))
+
+
+if __name__ == '__main__':
+    n = int(inpu())
+    print_formatted(n)    

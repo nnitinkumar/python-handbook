@@ -550,3 +550,22 @@ def print_formatted(number):
 if __name__ == '__main__':
     n = int(inpu())
     print_formatted(n)    
+    
+    
+##Arrays
+
+'''
+The Numpy package helps us manipulate large arrays and matrices
+of numeric data.
+
+A Numpy array is a grid of values. They are similar to lists,
+except that every element of an array must be the same type.
+
+
+You are given a space separated list of numbers.
+Your task is to print a reversed Numpy array with the element
+type float.
+
+
+
+'''

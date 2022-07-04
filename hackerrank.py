@@ -566,6 +566,16 @@ You are given a space separated list of numbers.
 Your task is to print a reversed Numpy array with the element
 type float.
 
-
-
 '''
+
+import numpy
+
+def arrays(arr):
+    # complete this function
+    # use numpy.array
+    arr.reverse()
+    return numpy.array(arr, float)
+    
+arr = input().strip().split(' ')
+result = arrays(arr)
+print(result)

@@ -579,3 +579,19 @@ def arrays(arr):
 arr = input().strip().split(' ')
 result = arrays(arr)
 print(result)
+
+
+
+
+
+##Transpose and Flatten
+
+'''
+We can generate the transposition of an array using the tool numpy.transpose
+It will not affect the original array, but it will create a new array
+
+The tool flatten creates a copy of the input array flattened to one dimension.
+
+'''
+
+

@@ -609,3 +609,12 @@ import numpy
 my_array = numpy.array([1,2,3],[4,5,6])
 print my_array.flatten()
 
+import numpy
+
+n,_ = input().split()
+l = []
+for i in range(int(n)):
+    m = list(map(int,input().split()))
+    l.append(m)
+print(numpy.transpose(numpy.array(l,int)))
+print((numpy.array(l,int)).flatten())

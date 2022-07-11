@@ -618,3 +618,7 @@ for i in range(int(n)):
     l.append(m)
 print(numpy.transpose(numpy.array(l,int)))
 print((numpy.array(l,int)).flatten())
+
+
+
+

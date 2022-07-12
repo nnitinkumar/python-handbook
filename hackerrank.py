@@ -620,5 +620,19 @@ print(numpy.transpose(numpy.array(l,int)))
 print((numpy.array(l,int)).flatten())
 
 
+##Text alignment
 
+'''
+In python, a string of text can be aligned left, right or center
+
+.ljust(width) -  returns a left aligned string of length width
+.center(width) - returns a centered string of length width
+.rust(width) - returns a right aligned string of length width
+
+You are given a partial code that is used for generating the hackerrank logo
+of variable thickness. Your task is to replace the blank(____) with rjust,
+ljust, center.
+
+
+'''
 

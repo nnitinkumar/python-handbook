@@ -669,4 +669,14 @@ for i in range(thickness):
 '''
 You are given a string S and width W.
 Your task is to wrap the string into a paragraph of width W.
+
+E.g. ABCDEFGHIJK
+4
+
+ABCD
+EFGH
+IJK
+
+
 '''
+

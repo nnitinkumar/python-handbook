@@ -693,3 +693,13 @@ if __name__ == '__main__':
     print(result)
     
     
+## Designer door mat
+
+'''
+Mr Vincent works in a door manufacturing company. He designed a new door mat
+size - n x m
+n is odd number
+m is 3 times N
+
+The design should have 'WElcome' written in the center
+'''

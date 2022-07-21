@@ -702,4 +702,20 @@ n is odd number
 m is 3 times N
 
 The design should have 'WElcome' written in the center
+
+The design pattern should only use |, . and - characters
 '''
+
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+
+R, C = map(int,input().split(' '))
+
+for i in range(1,R,2):
+    print((".|."*i).center(C, '-'))  #To print the above triangle
+
+print("WELCOME".center(C,'-')) #To print the welcome
+
+for i in range(R-2,-1,-2):
+    print((".|."*i).center(C, '-'))  #To print the lower triangle

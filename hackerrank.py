@@ -719,3 +719,34 @@ print("WELCOME".center(C,'-')) #To print the welcome
 
 for i in range(R-2,-1,-2):
     print((".|."*i).center(C, '-'))  #To print the lower triangle
+
+
+
+## Alphabet Rangoli
+
+'''
+You are given an integer N. Your task is to print an alphabet rangoli of size N.
+
+Function description
+Rangoli function has following parameters:
+Int size - the size of the rangoli
+
+Returns
+String - a single string made up of each of the lines of the rangoli separated by a newline character(\n)
+
+Input format 
+Only one line of input containing size, the size of the rangoli
+
+Constraints
+0<size<27
+
+'''
+
+def print_rangoli(size):
+    #your code
+    
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
+    
+    

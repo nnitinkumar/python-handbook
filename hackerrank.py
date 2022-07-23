@@ -744,6 +744,7 @@ Constraints
 
 def print_rangoli(size):
     #your code
+    li = list(map(chr,range(97,123)))
     
 if __name__ == '__main__':
     n = int(input())

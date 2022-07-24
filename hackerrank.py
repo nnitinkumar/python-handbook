@@ -744,7 +744,14 @@ Constraints
 
 def print_rangoli(size):
     #your code
-    li = list(map(chr,range(97,123)))
+    characters = string.ascii_lowercase
+    lst = []
+    width = 4*size - 3
+    for i in range(size):
+        s = '-'.join(characters[i:size])
+        lst.append((s[::-1] + s[1:]).center(width, '-'))
+    print('\n'.join(lst{:0:-1] + lst))
+    
     
 if __name__ == '__main__':
     n = int(input())

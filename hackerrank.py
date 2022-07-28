@@ -741,7 +741,7 @@ Constraints
 0<size<27
 
 '''
-
+##Not working
 def print_rangoli(size):
     #your code
     characters = string.ascii_lowercase
@@ -758,6 +758,8 @@ if __name__ == '__main__':
     print_rangoli(n)
     
     
+#Alternate solution
+
     
 ## Capitalize
 

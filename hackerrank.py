@@ -803,5 +803,10 @@ For example, product (A,B) returns the same as ((x,y) for x in A for y in B)
 
 '''
     
-    
+from itertools import product
+
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+
+print(*product(a, b))    
     

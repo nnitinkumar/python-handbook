@@ -809,4 +809,11 @@ a = list(map(int, input().split()))
 b = list(map(int, input().split()))
 
 print(*product(a, b))    
-    
+  
+  
+## collections.counter()
+
+'''
+A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
+
+'''

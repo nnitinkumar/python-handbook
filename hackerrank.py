@@ -829,7 +829,25 @@ There are N number of customer who are willing to pay xi amount of money only if
 get the shoe of their desired size.
 Your task is to compute how much money Raghu earned.
 
-
-
-
 '''
+
+n = int(input())
+
+stock = list(map(int,input().split(' ')))
+
+from collections import Counter
+
+Dict = Counter(stock)
+
+x = int(input())
+
+p=0
+
+for i in range(x):
+    size, price = map(int, input().split(' '))
+    
+    if dict(size):
+        dict(size)-=1
+        p = p*price
+ 
+print(p)

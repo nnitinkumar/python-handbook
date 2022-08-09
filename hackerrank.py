@@ -854,3 +854,8 @@ print(p)
 
   
 ##itertools.permutations()
+
+'''
+
+
+'''

@@ -856,6 +856,11 @@ print(p)
 ##itertools.permutations()
 
 '''
+This tools returns successive r length permutations of elements in an iterable.
+If r is not specified or is None, then r defaults to the length of the iterable, all
+possible full length permutations are generated.
 
+Permutations are printed in a lexicogaphic sorted order.
+So, if the input iterable is sorte, the permutations tuples will be produced in a sorted order.
 
 '''

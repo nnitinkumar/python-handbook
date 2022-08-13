@@ -868,3 +868,8 @@ So, if the input iterable is sorte, the permutations tuples will be produced in 
 
 from itertools import permutations
 s,n = input().split()
+
+
+
+
+

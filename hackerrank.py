@@ -877,6 +877,7 @@ s,n = input().split()
 
 
 
+##Alphabet Rangoli
 
 
 
